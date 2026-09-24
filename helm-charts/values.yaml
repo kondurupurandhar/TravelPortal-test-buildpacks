@@ -12,7 +12,7 @@ image:
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
-  digest: ""
+  digest: "sha256:931c6cc035545d20b0d563c2f14bb1c1632ac2a5f76d698d7c348a328008035d"
   
 env:
   #todoPort: 7540
