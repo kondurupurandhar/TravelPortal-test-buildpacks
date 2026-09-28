@@ -5,7 +5,7 @@ ENV GOPROXY=${GOPROXY}
 ENV GO111MODULE=on
 
 WORKDIR /app
-
+# workdir
 COPY go.mod go.sum ./
 # cache modules during CI-friendly builds
 RUN go env -w GOPROXY=${GOPROXY} && go mod download
